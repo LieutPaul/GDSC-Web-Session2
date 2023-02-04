@@ -1,0 +1,104 @@
+.parent{
+    padding : 50px;
+    background-color: yellow;
+    height: 200vh;
+}
+.first{
+    margin : 20px;
+    background-color: green;
+    height: 30vh;
+    width: 100%;
+}
+.second{
+    margin : 20px;
+    background-color: black;
+    color : white;
+    height: 30vh;
+    width: 100%;
+    /* position : fixed; */
+    left : 100px;
+    top : 100px;
+}
+
+
+
+
+
+
+.box{
+    animation-name: translate;
+    animation-duration: 10s;
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+
+
+
+
+
+.flexcont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+
+
+
+
+.children{
+    margin : 20px;
+    background-color: yellow;
+    height: 150px;
+    width : 150px;
+}
+
+
+
+
+
+@keyframes translate{
+    from  {
+        /* state of the system initially */
+        left : 200px;
+        background-color: black;
+    }
+    25%  {
+        /* an intermediate keyframe */
+    }
+    /* ... */
+    to  {
+        /* state of the system finally */
+        left : 0px;
+        background-color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
